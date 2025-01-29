@@ -17,5 +17,5 @@ func getApiResponse(context *gin.Context) {
 }
 
 func RegisterRoutes(router *gin.Engine) {
-	router.GET("/hngstage0", getApiResponse)
+	router.GET("/", getApiResponse)
 }
