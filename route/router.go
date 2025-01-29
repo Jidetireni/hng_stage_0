@@ -10,7 +10,7 @@ import (
 func getApiResponse(context *gin.Context) {
 	response, err := model.NewApiResponse()
 	if err != nil {
-		context.JSON(http.StatusInternalServerError, gin.H{"message": "Could not fetch response. Try again later."})
+		context.JSON(http.StatusInternalServerError, gin.H{"message": "Could not fetch response. Try again later.", "error": err.Error()})
 		return
 	}
 	context.JSON(http.StatusOK, response)
