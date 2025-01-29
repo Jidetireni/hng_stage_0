@@ -51,14 +51,14 @@ hngstage0/
 
 ### Endpoint
 
-- **GET** `https://hngstage0-production.up.railway.app/hngstage0`
+- **GET** `https://hngstage0-production.up.railway.app/`
 
 ### Request Example
 
 You can use `curl` to make the request:
 
 ```bash
-curl https://hngstage0-production.up.railway.app/hngstage0
+curl https://hngstage0-production.up.railway.app/
 ```
 
 ### Response Example
