@@ -26,11 +26,11 @@ The pro
 ## API Documentation
 
 ### Endpoint
-**GET** `[](https://hngstage0-production.up.railway.app/hngstage0)`
+**GET** `(https://hngstage0-production.up.railway.app/hngstage0)`
 
 ### Request Example
 ```bash
-curl [](https://hngstage0-production.up.railway.app/hngstage0)
+curl (https://hngstage0-production.up.railway.app/hngstage0)
 ```
 
 ### Response Example
@@ -38,7 +38,7 @@ curl [](https://hngstage0-production.up.railway.app/hngstage0)
 {
   "email": "jtirenipraise@gmail.com",
   "current_datetime": "2025-01-30T09:30:00Z",
-  "github_url": "https://github.com/Jidetireni/hng_stage_0.git"
+  "github_url": "[https://github.com/Jidetireni/hng_stage_0.git](https://github.com/Jidetireni/hng_stage_0.git)"
 }
 ```
 
