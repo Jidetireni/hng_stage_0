@@ -45,7 +45,7 @@ hngstage0/
    go run main.go
    ```
 
-4. Visit [http://localhost:8080/hngstage0](http://localhost:8080/hngstage0) in your browser to see the response.
+4. Visit [http://localhost:8080/](http://localhost:8080/) in your browser to see the response.
 
 ## API Documentation
 
