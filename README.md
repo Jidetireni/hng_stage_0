@@ -10,8 +10,7 @@ This is a simple public API developed for the HNG12 Stage 0 task. The API is wri
 
 ```
 hngstage0/
-├── /model                # Data models (if applicable)
-├── api.go                # API entry point
+├── /model/api.go         # Data models (entry point)
 ├── route/router.go       # Routing logic
 ├── README.md             # Project documentation
 ├── get.http              # HTTP request file (for testing or examples)
