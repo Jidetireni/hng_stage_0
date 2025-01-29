@@ -1,6 +1,8 @@
 # HNG Stage 0 API  
 This is a simple public API developed for the HNG12 Stage 0 task. The api is written in golang and gin web framework.
 The API returns basic information such as my registered email address, current datetime in ISO 8601 format, and the GitHub repository URL.
+The pro
+hng_stage_0/ ├── main.go # Entry point of the application ├── model/ │ └── api_response.go # Defines the API response struct and logic ├── route/ │ └── route.go # API route definitions and handlers └── go.mod # Go module configuration
 
 ## Setup Instructions
 
