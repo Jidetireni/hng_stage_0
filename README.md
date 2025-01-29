@@ -26,11 +26,11 @@ The pro
 ## API Documentation
 
 ### Endpoint
-**GET** `[/hngstage0](https://hngstage0-production.up.railway.app/hngstage0)`
+**GET** `[](https://hngstage0-production.up.railway.app/hngstage0)`
 
 ### Request Example
 ```bash
-curl [http://localhost:8080/hngstage0](https://hngstage0-production.up.railway.app/hngstage0)
+curl [](https://hngstage0-production.up.railway.app/hngstage0)
 ```
 
 ### Response Example
