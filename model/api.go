@@ -1,6 +1,8 @@
 package model
 
-import "time"
+import (
+	"time"
+)
 
 type ApiResponse struct {
 	Email           string `json:"email"`
@@ -12,6 +14,6 @@ func NewApiResponse() (*ApiResponse, error) {
 	return &ApiResponse{
 		Email:           "jtirenipraise@gmail.com",
 		CurrentDateTime: time.Now().UTC().Format(time.RFC3339),
-		GithubUrl:       "https://github.com/Jidetireni/hng_stage_0.git",
+		GithubUrl:       "https://github.com/Jidetireni/hng_stage_0",
 	}, nil
 }
